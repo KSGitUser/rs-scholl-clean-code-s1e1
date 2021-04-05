@@ -17,7 +17,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header__wrapper { 
     text-align: center;
@@ -39,14 +39,14 @@
   display: flex;
 }
 .tasks__wrapper {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .tasks__wrapper, .block__title {
-  list-style:none;
+  list-style: none;
 }
 .task__checkbox, .task__input, .task__btn{
-  outline:none;
+  outline: none;
 }
 .task__btn {
   background: none;
@@ -61,7 +61,7 @@
   color: #3a3A3a;
 }
 /* Heading */
-.block__title
+.block__title 
 {
   color: #333;
   font-weight: 700;
@@ -138,14 +138,14 @@
 
 /* Edit Task */
 .tasks__wrapper .task__input {
-  display:none
+  display: none
 }
 
 .tasks__wrapper .task_edit .task__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .tasks__wrapper .task_edit .task__label {
-  display:none;
+  display: none;
 }
